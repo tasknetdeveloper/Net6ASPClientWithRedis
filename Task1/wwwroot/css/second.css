@@ -1,0 +1,39 @@
+﻿.vertical-scrollable > .row {
+    position: relative;
+    top: 0px;
+    width: 50%;
+    overflow-y: scroll;
+}
+
+.col-sm-8 {
+    color: white;
+    font-size: 12px;    
+}
+
+    .col-sm-8:nth-child(2n+1) {
+        background: gray;
+    }
+
+    .col-sm-8:nth-child(2n+2) {
+        background: whitesmoke;
+    }
+
+
+.list-group {
+    max-height: 300px;
+    margin-bottom: 10px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.buttonMargin {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.prepared {
+    width:300px;
+}
+
+.prepared-group {
+    width: 300px;
+}

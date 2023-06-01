@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "IT-EXPERT";
+}
+
+    <section class="position-relative py-4 py-xl-5">
+        <div class="container position-relative">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+                    <div class="card mb-5">
+                        <div class="card-body p-sm-5">
+                            <h2 class="text-center mb-4">Task 1 (поля для формирования коллекции, а также для фильтрации по кнопке "Get items")</h2>
+                            <form method="post">
+                                <div class="mb-3">
+                                <input class="form-control" type="number" id="xcode"/>
+								</div>
+                                <div class="mb-3">
+									<input class="form-control" type="text" id="xvalue"/>
+								</div>
+                                <div class="mb-3"></div>
+                                <div>
+                                    <button id="setPrepair" class="btn btn-primary d-block w-100" type="button">Add prepair item</button></div>
+                            </form>
+                            <div class="panel panel-default">                                                          
+                                    <div id="prepair" class="list-group">
+
+                                    </div>                                
+                            </div>
+							
+							<button id="sendAll" class="btn btn-primary" type="button">Send all items</button>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card mb-5">
+                        <div class="card-body p-sm-5">
+                            <button id="getItems" class="btn btn-primary" type="button">Get items</button>
+                            <h1>Result</h1>
+                            <div class="panel panel-default">
+                                <div id="resultItems" class="list-group">
+                                </div>
+                            </div>
+
+                                <ul class="pagination">
+                                    <li id="prevPage" class="page-item"><a class="page-link" aria-label="Previous" href="#"><span aria-hidden="true">«</span></a></li>
+                                    <li id="nextPage" class="page-item"><a class="page-link" aria-label="Next" href="#"><span aria-hidden="true">»</span></a></li>
+                                </ul>
+                           
+
+                        </div>
+                    </div>
+                                       
+                                        
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"></div>
+            </div>
+        </div>
+        
+    </section>
+

@@ -1,0 +1,16 @@
+﻿--Ms Sql Server
+
+CREATE TABLE Items(id int Primary key identity,
+code int, value varchar(500))
+
+
+CREATE INDEX ind_codevalue
+ON Items(code, value);
+
+
+CREATE TABLE LogInDb(id int Primary key identity,
+Message varchar(1000),DateCreated datetime)
+
+
+CREATE INDEX ind_LogInDb
+ON Items(Message, DateCreated);
